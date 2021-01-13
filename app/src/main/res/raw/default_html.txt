@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+</style>
+<body>
+
+<div id ="container">
+<h3>Welcome to Allen Xu's Adaptive No-Shake Screen Reader!</h3>
+<div id ="animate">
+<img id="tree" src="file:///android_res/drawable/whackdown.png" style="vertical-align:bottom" height="100" width="200"></div>
+</div>
+
+</body>
+</html>

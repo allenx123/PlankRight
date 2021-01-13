@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\landing.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\landing.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\screen_stabalization_test_html.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\screen_stabalization_test_html.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\account.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\account.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\whoosh.wav",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\whoosh.wav"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\goals.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\goals.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\tree.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\tree.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\moviesilent.mp4",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\moviesilent.mp4"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\default_html.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\default_html.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\signup.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\signup.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\template_animation.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\template_animation.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\tree1.txt",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\tree1.txt"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\raw\\tada.wav",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\raw\\tada.wav"
+    }
+]

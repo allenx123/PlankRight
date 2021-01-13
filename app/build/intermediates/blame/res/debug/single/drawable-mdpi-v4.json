@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\round_button_normal.xml",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\drawable-mdpi\\round_button_normal.xml"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\round_button_search.xml",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\drawable-mdpi\\round_button_search.xml"
+    }
+]

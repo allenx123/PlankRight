@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background: yellow;
+}
+img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: yellow;
+}
+button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: yellow;
+}
+
+</style>
+<body style="background-color: yellow;">
+<div id="container">
+<img id="tree0" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:0px;left:0px;top:0px;" height="45" width="35">
+<img id="tree1" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:0px;" height="45" width="35">
+<img id="tree2" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:0px;" height="45" width="35">
+<img id="tree3" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:0px;" height="45" width="35">
+<img id="tree4" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:0px;" height="45" width="35">
+<img id="tree5" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:0px;" height="45" width="35">
+<img id="tree6" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:0px;" height="45" width="35">
+<img id="tree7" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:0px;" height="45" width="35">
+<img id="tree8" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:0px;" height="45" width="35">
+<img id="tree9" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:0px;" height="45" width="35">
+
+<img id="tree10" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:45px;" height="45" width="35">
+<img id="tree11" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:45px;" height="45" width="35">
+<img id="tree12" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:45px;" height="45" width="35">
+<img id="tree13" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:45px;" height="45" width="35">
+<img id="tree14" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:45px;" height="45" width="35">
+<img id="tree15" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:45px;" height="45" width="35">
+<img id="tree16" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:45px;" height="45" width="35">
+<img id="tree17" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:45px;" height="45" width="35">
+<img id="tree18" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:45px;" height="45" width="35">
+<img id="tree19" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:45px;" height="45" width="35">
+
+<img id="tree20" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:90px;" height="45" width="35">
+<img id="tree21" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:90px;" height="45" width="35">
+<img id="tree22" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:90px;" height="45" width="35">
+<img id="tree23" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:90px;" height="45" width="35">
+<img id="tree24" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:90px;" height="45" width="35">
+<img id="tree25" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:90px;" height="45" width="35">
+<img id="tree26" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:90px;" height="45" width="35">
+<img id="tree27" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:90px;" height="45" width="35">
+<img id="tree28" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:90px;" height="45" width="35">
+<img id="tree29" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:90px;" height="45" width="35">
+
+<img id="tree30" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:135px;" height="45" width="35">
+<img id="tree31" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:135px;" height="45" width="35">
+<img id="tree32" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:135px;" height="45" width="35">
+<img id="tree33" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:135px;" height="45" width="35">
+<img id="tree34" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:135px;" height="45" width="35">
+<img id="tree35" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:135px;" height="45" width="35">
+<img id="tree36" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:135px;" height="45" width="35">
+<img id="tree37" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:135px;" height="45" width="35">
+<img id="tree38" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:135px;" height="45" width="35">
+<img id="tree39" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:135px;" height="45" width="35">
+
+<img id="tree40" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:180px;" height="45" width="35">
+<img id="tree41" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:180px;" height="45" width="35">
+<img id="tree42" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:180px;" height="45" width="35">
+<img id="tree43" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:180px;" height="45" width="35">
+<img id="tree44" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:180px;" height="45" width="35">
+<img id="tree45" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:180px;" height="45" width="35">
+<img id="tree46" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:180px;" height="45" width="35">
+<img id="tree47" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:180px;" height="45" width="35">
+<img id="tree48" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:180px;" height="45" width="35">
+<img id="tree49" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:180px;" height="45" width="35">
+
+<img id="tree50" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:225px;" height="45" width="35">
+<img id="tree51" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:225px;" height="45" width="35">
+<img id="tree52" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:225px;" height="45" width="35">
+<img id="tree53" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:225px;" height="45" width="35">
+<img id="tree54" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:225px;" height="45" width="35">
+<img id="tree55" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:225px;" height="45" width="35">
+<img id="tree56" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:225px;" height="45" width="35">
+<img id="tree57" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:225px;" height="45" width="35">
+<img id="tree58" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:225px;" height="45" width="35">
+<img id="tree59" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:225px;" height="45" width="35">
+
+<img id="tree60" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:270px;" height="45" width="35">
+<img id="tree61" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:270px;" height="45" width="35">
+<img id="tree62" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:270px;" height="45" width="35">
+<img id="tree63" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:270px;" height="45" width="35">
+<img id="tree64" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:270px;" height="45" width="35">
+<img id="tree65" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:270px;" height="45" width="35">
+<img id="tree66" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:270px;" height="45" width="35">
+<img id="tree67" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:270px;" height="45" width="35">
+<img id="tree68" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:270px;" height="45" width="35">
+<img id="tree69" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:270px;" height="45" width="35">
+
+<img id="tree70" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:315px;" height="45" width="35">
+<img id="tree71" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:315px;" height="45" width="35">
+<img id="tree72" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:315px;" height="45" width="35">
+<img id="tree73" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:315px;" height="45" width="35">
+<img id="tree74" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:315px;" height="45" width="35">
+<img id="tree75" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:315px;" height="45" width="35">
+<img id="tree76" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:315px;" height="45" width="35">
+<img id="tree77" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:315px;" height="45" width="35">
+<img id="tree78" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:315px;" height="45" width="35">
+<img id="tree79" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:315px;" height="45" width="35">
+
+<img id="tree80" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:360px;" height="45" width="35">
+<img id="tree81" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:360px;" height="45" width="35">
+<img id="tree82" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:360px;" height="45" width="35">
+<img id="tree83" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:360px;" height="45" width="35">
+<img id="tree84" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:360px;" height="45" width="35">
+<img id="tree85" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:360px;" height="45" width="35">
+<img id="tree86" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:360px;" height="45" width="35">
+<img id="tree87" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:360px;" height="45" width="35">
+<img id="tree88" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:360px;" height="45" width="35">
+<img id="tree89" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:360px;" height="45" width="35">
+
+<img id="tree90" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:0px;top:405px;" height="45" width="35">
+<img id="tree91" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:35px;top:405px;" height="45" width="35">
+<img id="tree92" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:70px;top:405px;" height="45" width="35">
+<img id="tree93" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:105px;top:405px;" height="45" width="35">
+<img id="tree94" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:140px;top:405px;" height="45" width="35">
+<img id="tree95" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:175px;top:405px;" height="45" width="35">
+<img id="tree96" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:210px;top:405px;" height="45" width="35">
+<img id="tree97" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:245px;top:405px;" height="45" width="35">
+<img id="tree98" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:280px;top:405px;" height="45" width="35">
+<img id="tree99" src="file:///C:/kk/android_tutorial/workspace/MiniMe/res/drawable-hdpi/tree1.png" style="vertical-align:bottom; display:none;left:315px;top:405px;" height="45" width="35">
+<div>
+<p>
+<script>
+var directory="file:///android_res/drawable/";
+//var directory="file:///C:/kk/android_tutorial/workspace/WeatherTree/res/drawable-hdpi/";
+var treeArray = new Array(100);
+var i=0;
+for (i=0; i<treeArray.length; i++) {
+	treeArray[i] = 0;//initially, no tree is visible
+}
+var treeSize = 60;
+var donutPosition = 0;
+var personPosition = 0;
+
+var myVar = setInterval(function(){ myTimer() }, 1000);
+displayDonut();
+var random = Math.floor(Math.random()*100);
+displayPerson(random);
+function myTimer() {
+	grow();
+}
+
+
+function displayDonut() {
+	donutPosition = Math.floor(Math.random()*100);
+	while (treeArray[donutPosition]==1 && treeArray[donutPosition]==3) {
+		donutPosition = Math.floor(Math.random()*100);
+	}
+	treeArray[donutPosition] = 2;
+	displayIt(donutPosition, 2);
+}
+function displayPerson(position) {
+	displayIt(position, 3);
+	personPosition = position;
+	treeArray[position] = 3;
+}
+/*
+i=0: donut found and not stuck (blocked by tree)
+i=1: donut found and stuck (blocked by tree)
+i=2: donut not found and stuck (blocked by tree)
+*/
+function updateStatus(status) {
+	//console.log(status);
+	Android.updateStatus(status);
+}
+function isBlocked(personPosition) {
+
+	//case1: person on left boundary (excluding top and bottom corner)
+	if (personPosition==10 || personPosition==20 || personPosition==30 || personPosition==40 || personPosition==50 || personPosition==60 || personPosition==70 || personPosition==80) {
+		if (personPosition==donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+10]==1 && treeArray[personPosition+1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+10]==1 && treeArray[personPosition+1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition-10]==0 || treeArray[personPosition+10]==0 || treeArray[personPosition+1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+	}
+
+	//case2: person on right boundary (excluding top and bottom corner)
+	else if (personPosition==19 || personPosition==29 || personPosition==39 || personPosition==49 || personPosition==59 || personPosition==69 || personPosition==79 || personPosition==89) {
+		if (personPosition==donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition-10]==0 || treeArray[personPosition+10]==0 || treeArray[personPosition-1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+	}
+
+	//case3: person on top boundary (excluding right and left corner)
+	else if (personPosition==1 || personPosition==2 || personPosition==3 || personPosition==4 || personPosition==5 || personPosition==6 || personPosition==7 || personPosition==8) {
+		if (personPosition==donutPosition && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1 && treeArray[personPosition+1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1 && treeArray[personPosition+1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition+10]==0 || treeArray[personPosition-1]==0 || treeArray[personPosition+1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+	}
+
+	//case4: person on bottom boundary (excluding right and left corner)
+	else if (personPosition==91 || personPosition==92 || personPosition==93 || personPosition==94 || personPosition==95 || personPosition==96 || personPosition==97 || personPosition==98) {
+		if (personPosition==donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition-1]==1 && treeArray[personPosition+1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition-1]==1 && treeArray[personPosition+1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition-10]==0 || treeArray[personPosition-1]==0 || treeArray[personPosition+1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+	}
+
+	//case5: person on top right corner 
+	else if (personPosition==9) {
+		if (personPosition==donutPosition && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition+10]==0 || treeArray[personPosition-1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+
+	}
+
+	//case6: person on top left corner
+	else if (personPosition==0) {
+		if (personPosition==donutPosition && treeArray[personPosition+10]==1 && treeArray[personPosition+1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition+10]==1 && treeArray[personPosition+1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition+10]==0 || treeArray[personPosition+1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+
+	}
+
+	//case7: person on bottom right corner
+	else if (personPosition==99) {
+		if (personPosition==donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition-1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition-1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition-10]==0 || treeArray[personPosition-1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+	}
+
+	//case8: person on bottom left corner
+	else if (personPosition==90) {
+		if (personPosition==donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition-10]==0 || treeArray[personPosition+1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}
+	}
+
+	//every other case
+	else {
+		if (personPosition==donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1 && treeArray[personPosition+1]==1) {
+			displayDonut();
+			updateStatus(1);
+			
+		}
+		else if (personPosition!=donutPosition && treeArray[personPosition-10]==1 && treeArray[personPosition+10]==1 && treeArray[personPosition-1]==1 && treeArray[personPosition+1]==1) {
+			updateStatus(2);
+		}
+		else if (personPosition==donutPosition && (treeArray[personPosition-10]==0 || treeArray[personPosition+10]==0 || treeArray[personPosition-1]==0 || treeArray[personPosition+1]==0)) {
+			displayDonut();
+			updateStatus(0);
+			
+		}		
+	}	
+}
+function personMove(type) {
+	//0 means up
+	if (type==0) {
+		if (personPosition-10>=0) {
+		if (treeArray[personPosition-10]!=1) {
+		undisplayIt(personPosition);
+		personPosition = personPosition-10;
+		displayPerson(personPosition);
+		}
+		}
+		isBlocked(personPosition);
+
+	}
+	//1 means down
+	else if (type==1) {
+		if (personPosition+10<=99) {
+		if (treeArray[personPosition+10]!=1) {
+		undisplayIt(personPosition);
+		personPosition = personPosition+10;
+		displayPerson(personPosition);
+		}
+		}
+		isBlocked(personPosition);
+	}
+	//2 means right
+	else if (type==2) {
+		if (personPosition+1<=99) {
+		if (treeArray[personPosition+1]!=1) {
+		undisplayIt(personPosition);
+		personPosition = personPosition+1;
+		displayPerson(personPosition);
+		}
+		}
+		isBlocked(personPosition);
+	}
+	//3 means left
+	else if (type==3) {
+		if (personPosition-1>=0) {
+		if (treeArray[personPosition-1]!=1) {
+		undisplayIt(personPosition);
+		personPosition = personPosition-1;
+		displayPerson(personPosition);
+		}
+		}
+		isBlocked(personPosition);
+	}
+
+}
+function grow() {
+	var whichTree = Math.floor(Math.random()*100);
+	if (treeArray[whichTree]==0) {
+		treeArray[whichTree] = 1;
+		displayIt(whichTree, 1);
+	}
+	else {
+		var displayed = 0;
+		for (i=treeArray+1; i<100; i++) {
+
+			if (treeArray[i]==0) {
+				treeArray[i] = 1;
+				displayIt(i, 1);
+				displayed = 1;
+				break;
+			}
+		}
+		if (displayed==0) {
+			for (i=0; i<100; i++) {
+				if (treeArray[i]==0) {
+					treeArray[i] = 1;
+					displayIt(i, 1);
+				}
+				break;
+			}
+		}
+	}
+}
+function shrink() {
+	var whichTree = Math.floor(Math.random()*100);
+	if (treeArray[whichTree]==1) {
+		treeArray[whichTree] = 0;
+		undisplayIt(whichTree);
+	}
+	else {
+		var undisplayed = 0;
+		for (i=treeArray+1; i<100; i++) {
+
+			if (treeArray[i]==1) {
+				treeArray[i] = 0;
+				undisplayIt(i);
+				undisplayed = 1;
+				break;
+			}
+		}
+		if (undisplayed==0) {
+			for (i=0; i<100; i++) {
+				if (treeArray[i]==1) {
+					treeArray[i] = 0;
+					undisplayIt(i);
+					break;
+				}
+			}
+		}
+	}
+}
+//type=0: nothing
+//type=1: tree
+//type=2: donut
+//type=3: person
+function displayIt(i, type) {
+	console.log("display "+i);
+
+	var treeObj = document.getElementById("tree"+i);
+	treeObj.src = directory+"tree1.png";
+	if (type==2)
+		treeObj.src = directory+"donut_chocolate_sprinkles.png";
+	else if (type==3)
+		treeObj.src = directory+"snorlax.png";
+	treeObj.style.display="block";
+        console.log(treeObj.src);
+}
+function undisplayIt(i) {
+	console.log("undisplay "+i);
+	var treeObj = document.getElementById("tree"+i);
+	treeObj.style.display="none";
+
+}
+</script>
+
+<!--
+<button type="button" style="left:0px;top:550px;" onclick="grow()">grow</button>
+<button type="button" style="left:35px;top:550px;"onclick="shrink()">shrink</button>
+
+<button type="button" style="left:70px;top:550px;"onclick="(displayDonut())">test donut</button>
+<button type="button" style="left:105px;top:550px;"onclick="(displayPerson(20))">test person</button>
+<button type="button" style="left:140px;top:550px;"onclick="(personMove(0))">up</button>
+<button type="button" style="left:175px;top:550px;"onclick="(personMove(1))">down</button>
+<button type="button" style="left:210px;top:550px;"onclick="(personMove(2))">right</button>
+<button type="button" style="left:245px;top:550px;"onclick="(personMove(3))">left</button>
+-->
+
+</body>
+</html>

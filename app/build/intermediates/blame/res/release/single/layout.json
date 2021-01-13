@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\layout\\planking_right_layout.xml",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\layout\\planking_right_layout.xml"
+    },
+    {
+        "merged": "C:\\kk\\nativeAdroidApps\\Planking\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "C:\\kk\\nativeAdroidApps\\Planking\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

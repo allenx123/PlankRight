@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style type = "text/css">
+  *, *:before, *:after {
+  box-sizing: border-box;
+	}
+	body {
+  	font-family: 'Lato', sans-serif;
+  	font-family: 'Montserrat', sans-serif;
+  	background-color: #F0F7F4
+	}
+
+	h1{
+ 	width: 100%;
+  	background-color: #7E8D85;
+  	color: white;
+  	line-height: 2;
+	}
+
+	h2{
+	table-layout: 
+	}
+  </style>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="SignUp.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <h1 align="center">Sign Up</h1>
+
+    <p>Full Name:</p>
+    <form>
+      <input type="text">
+    </form>
+    <p>Bank Account Number:</p>
+    <form>
+      <input type="text">
+    </form>
+    <p>Expiry Date:</p>
+    <form>
+      <input type="text">
+    </form>
+    <p>CSC:</p>
+    <form>
+      <input type="text">
+    </form>
+    <p>spruce Password:</p>
+    <form>
+      <input type="text">
+    </form>
+    <p></p>
+
+  </body>
+</html>

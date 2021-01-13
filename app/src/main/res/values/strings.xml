@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Planking</string>
+    <string name="planking_title">Plank Right</string>
+    <string name="default_timer">00:00</string>
+    <string name="action_settings">Setting</string>
+    <string name="finish">Finish</string>
+    <string name="back">&lt;</string>
+    <string name="forward">&gt;</string>
+    <string name="Account">Account</string>
+	<string name="Reset">Reset</string>
+    <string name="url">Enter your url</string>
+ </resources>

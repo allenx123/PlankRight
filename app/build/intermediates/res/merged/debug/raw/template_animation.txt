@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background: white;
+}
+</style>
+<body>
+
+<div id ="container">
+The Java™ platform was designed with a strong emphasis on security. At its core, the Java language itself is type-safe and provides automatic garbage collection,
+enhancing the robustness of application code. A secure class loading and verification mechanism ensures that only legitimate Java code is executed.
+</div>
+
+
+<script>
+var topPosOrin = 25;
+var leftPosOrin = 25;
+var topPos = 25;
+var leftPos = 25;
+var elem = document.getElementById("container");
+elem.style.top = topPos + 'px';
+elem.style.left = leftPos + 'px';
+
+function moveContainer(horizontal, vertical) {
+  var elem = document.getElementById("container");
+  leftPos = horizontal;
+  topPos = vertical;
+  //leftPos += horizontal;
+  //topPos += vertical;
+  elem.style.left = leftPos + 'px';
+  elem.style.top = topPos + 'px';
+}
+</script>
+
+</body>
+</html>

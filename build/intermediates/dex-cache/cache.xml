@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\allen\.android\build-cache\8ad09be4a810d60dca13f1ce747e663465ebefe6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\kk\nativeAdroidApps\Planking\app\build\intermediates\pre-dexed\debug\classes_72c08d623e49a955c8f2d0db0598efbea35ce97f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\allen\.android\build-cache\8ad09be4a810d60dca13f1ce747e663465ebefe6\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\kk\nativeAdroidApps\Planking\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_58abfb39511861b1d0cff8d55489b3eee5347371.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\allen\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\kk\nativeAdroidApps\Planking\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_b1b0d8fb6fe97e55cdf6350341b076392324a796.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\kk\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\kk\nativeAdroidApps\WeatherTree\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_33c94c3dc77e6680672e091fdd15cfedf616db1e.jar" />
+    </item>
+
+</items>

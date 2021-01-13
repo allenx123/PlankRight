@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type = "text/css">
+		body {
+	  background-color: #F0F7F4;
+	  font-family: 'Lato', sans-serif;
+	  font-family: 'Montserrat', sans-serif;
+	}
+	
+	.thing2 {
+	  position: relative;
+	  bottom: 50px;
+	  color: #7E8D85;
+	  text-align: center;
+	  
+	}
+	</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="landingPage.css">
+</head>
+  
+<body>
+  <br><br><br><br>
+  <img src="file:///android_res/drawable/spruce_landing_page.png" alt="spruce" width="290" height="300">
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style type = "text/css">
+		*, *:before, *:after {
+  		box-sizing: border-box;
+		}
+		body {
+  		font-family: 'Lato', sans-serif;
+  		font-family: 'Montserrat', sans-serif;
+  		background-color: #F0F7F4
+		}
+
+h1{
+  width: 100%;
+  background-color: #00FA9A;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+img {
+  padding-left: 60px;
+}
+	</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Account</title>
+    <link rel="stylesheet" href="Account.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  </head>
+  
+  <body>
+    <h1>Account Deposit</h1>
+    <h3>Current Balance</h3>
+    <p>Amount ($):</p>
+    
+    <form>
+    <input type="text"/>
+    </form>
+    <p></p>
+    <input type="submit" value="Submit"/>
+    <br><br><br>
+    
+      <script type="text/javascript">
+  	var money = 0;
+  	function myFunction(var x) {
+  		money = x;
+  	}
+  	document.getElementById('money').innerHTML = money;
+  </script>
+    
+  </body>
+  <img id="tree" src="file:///android_res/drawable/spruce_landing_small.png" alt="img" width="240" height="190">
+  
+
+</html>

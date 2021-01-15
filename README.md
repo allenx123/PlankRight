@@ -5,6 +5,6 @@ Plank Right was built to ensure that people who do the plank exercise have prope
 ### Android API
 Android API was used to build the application so that it could be easily deployed onto the Google Play Store. The code was written in Java 1.8
 ### XML
-XML was the used to design the application's front end
+XML was used to design the application's front end
 ## Try it out
 To access my application, go to https://play.google.com/store/apps/details?id=com.minime.plank
